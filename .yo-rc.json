@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "smlshn",
+    "baseName": "customercockpit",
+    "packageName": "tr.com.isos",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "spring-websocket",
+    "databaseType": "cassandra",
+    "devDatabaseType": "cassandra",
+    "prodDatabaseType": "cassandra",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "tr",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.9.0",
+    "packageFolder": "tr/com/isos",
+    "jwtSecretKey": "769f2397fff00861adb3fe21454ab2d916b629f8",
+    "jhiPrefix": "jhi"
+  }
+}
